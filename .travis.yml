@@ -7,7 +7,6 @@ node_js:
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
-# da fuq nigga
 notifications:
   irc: "irc.freenode.org#travis"
 
