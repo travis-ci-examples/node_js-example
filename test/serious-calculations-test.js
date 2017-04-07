@@ -8,7 +8,7 @@ vows.describe('serious-calculations').addBatch({
     topic: seriousCalculations.performSeriousCalculations(6,3,4),
     'result should be valid': function calculadora (result) {
       assert.isNumber(result);
-      assert.equal(result, 2);
+      assert.equal(result, 3);
     }
   }
 }).export(module);
