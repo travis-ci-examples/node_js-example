@@ -1,9 +1,8 @@
 {
-  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "author": "Hector Lopez <hectorelopez97@hotmail.com>",
   "name": "travis-ci-node.js-example",
   "description": "An example node.js project that uses vows and travis-ci.org for continuous integration",
   "version": "0.0.0",
-  "homepage": "http://travis-ci.org/#!/travis-ci/travis-ci-node.js-example",
   "main": "./lib/serious-calculations",
   "repository": {
     "type": "git",
@@ -15,7 +14,7 @@
   "engines": {
     "node": ">= 0.4"
   },
-  "dependencies": {},
+  "dependencies": { },
   "devDependencies": {
     "vows": "0.6.x"
   }
