@@ -3,12 +3,13 @@ var assert = require('assert'),
     seriousCalculations = require('../');
 
 vows.describe('serious-calculations').addBatch({
-  'When performing serious calculations': {
-    topic: seriousCalculations.performSeriousCalculations(4),
-    'result should be valid': function (result) {
-      assert.isNumber(result);
-      assert.equal(result, 8);
+  'when performing serious calculations': {
+    topic: function() {
+      return seriousCalculations.performSeriousCalculations(4);
+    },
+    'result should be valid': function (topic) {
+      assert.isNumber(topic);
+      assert.equal(topic, 8);
     }
   }
 }).export(module);
-
